@@ -10,13 +10,26 @@ int main() {
     float n = (n1 + n2 + n3)/3;
     printf("mean(n1,n2,n3) = %f\n", n);
 
-    double n = (n1 + n2 + n3)/3;
-    printf("mean(n1,n2,n3) = %lf\n", n);
+    double m = (n1 + n2 + n3)/3;
+    printf("mean(n1,n2,n3) = %lf\n", m);
 
     const long double pi = 3.14159265358979;
     printf("pi = %.14Lf\n", pi);
 
     const long long long_number = 1989000000000000000;
     printf("long number: %lld", long_number);
+    printf("\n");
+
+    // Typecast
+    float
+        x = 24.5,
+        y = 7.2;
+
+    //converting float to int
+    int result = (int) x / (int) y;
+  
+    //output
+    printf("Result = %d\n", result);
+
     return 0;
 }
