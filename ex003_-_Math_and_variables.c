@@ -20,6 +20,16 @@ int main() {
     printf("long number: %lld", long_number);
     printf("\n");
 
+    // Remainder
+    int
+        a = 9,
+        b = 4;
+    
+    int rem = a % b;
+  
+    printf("Remainder: %d\n", rem);
+    printf("\n");
+
     // Typecast
     float
         x = 24.5,
